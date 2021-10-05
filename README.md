@@ -1,6 +1,6 @@
 # AGENDA
 
-Esta é uma agenda totalmente funcional criada com framework Django. App criado durante o Curso Desenvolvimento para Internet e Banco de Dados com Python e Django da <a href='https://web.digitalinnovation.one/home'>digitalinnovation,/a>
+Esta é uma agenda totalmente funcional criada com framework Django. App criado durante o Curso Desenvolvimento para Internet e Banco de Dados com Python e Django da <a href='https://web.digitalinnovation.one/home'>digitalinnovation</a>
 
 # Passos para usados para a criação
 - Foi criado uma maquina virtual venv
