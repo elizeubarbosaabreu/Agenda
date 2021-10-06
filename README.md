@@ -14,4 +14,20 @@ Esta é uma agenda totalmente funcional criada com framework Django. App criado 
 # Acessando a agenda
 - Acessa-se o link <a href='http://127.0.0.1:8000/admin'>http://127.0.0.1:8000/admin</a> para cadastrar novos usuários:
 
+# Criação das tabelas
+- criação da class Eventos em models
+- criação dos campos para ser preenchidos: titulos, descrição, datas, etc
+- Inserção do App core em INSTALLED_APPS
+- Criação da class meta com o nome da tabela no banco de dados
+- Comandos:
+- > python manage.py makemigrations core
+- > python manage.py sqlmigrate core 0001
+- > python manage.py migrate core 0001
+- É feito o registro da class no arquivo admin
+
+
+
+
+
+
 
