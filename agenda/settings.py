@@ -55,7 +55,8 @@ ROOT_URLCONF = 'agenda.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [str(BASE_DIR) + '/' + 'templates'], #### CORRIGIR ISSO DE ACORDO COM O SISTEMA OPERACIONAL
+        #'DIRS':[os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

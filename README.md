@@ -25,9 +25,12 @@ Esta é uma agenda totalmente funcional criada com framework Django. App criado 
 - > python manage.py migrate core 0001
 - É feito o registro da class no arquivo admin
 
-
-
-
-
+# Criação de um template
+- Criação de uma pasta templates
+- arquivo agenda.html
+- criação da rota para a view
+- Exibição de eventos 
+- Código e comandos python dentro do html {% for x in y %}{{ comandos }} {% endfor %}
+- Criação de modelos de extensão
 
 
