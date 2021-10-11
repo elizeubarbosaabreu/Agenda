@@ -33,4 +33,7 @@ Esta é uma agenda totalmente funcional criada com framework Django. App criado 
 - Código e comandos python dentro do html {% for x in y %}{{ comandos }} {% endfor %}
 - Criação de modelos de extensão
 
+# Autenticação, login e decoradores
+- Criação de gerenciamente de login e visualização onde cada usuário somente vê a sua agenda
+- Somente staffs e admin consegue administrar a agenda
 
