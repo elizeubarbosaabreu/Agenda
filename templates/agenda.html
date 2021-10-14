@@ -5,18 +5,24 @@
     <h2>Agendamentos</h2>
     
     <a href="evento/">
-        <button type="button">Novo Evento</button>
+        <button class="btn btn-success" type="button">Novo Evento</button>
     </a>
-    
-    <ul style="font-size: 18px">
+        
+    <ul class="list-group">
     {% for evento in eventos %}
         <div style={% if evento.get_evento_atrasado %}
                     "color:red"
-                   {% endif %}>
-            <li>{{ evento.titulo }} - {{ evento.get_data_evento }} - 
-            ( <a href='evento/?id={{ evento.id }}'>Editar</a>
-            /<a href='evento/delete/{{ evento.id }}/'>Excluir</a> )
-        </li>
+                   {% endif %}>            
+       
+            <li class="list-group-item">{{ evento.titulo }} - {{ evento.get_data_evento }}
+            <span class="col-sm-offset-10 col-sm-1">
+            <a class="btn btn-warning" href='evento/?id={{ evento.id }}'>Editar</a>
+            </span>
+            <span class="col-sm-1">
+            <a class="btn btn-danger" href='evento/delete/{{ evento.id }}/'>Excluir</a>
+            </span>
+            </li>
+            
         </div>
     {% endfor %}
     </ul>
